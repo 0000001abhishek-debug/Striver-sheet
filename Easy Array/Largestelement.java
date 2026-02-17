@@ -29,23 +29,23 @@
 //         System.out.println("Largest in arr2: " + Solution.findLargestbrute(arr2));
 //     }
 // }
-// class Solution{
-//     public static int findLargestbetter(int[] arr) {
+class Solution{
+    public static int findLargestbetter(int[] arr) {
 
-//         int largest = arr[0];
+        int largest = arr[0];
 
-//         for (int i = 1; i< arr.length; i++) {
-//             if (arr[i] > largest) {
-//                 largest = arr[i];
-//             }
-//         }
-//         return largest;
-//     }
-// }
-// public class Main{
-//     public static void main(String[] args) {
-//         int[] arr = {5, 8, 2, 10, 3};
-//         System.out.println("largest element: " + Solution.findLargestbetter(arr));
-//     }
-// }
+        for (int i = 1; i< arr.length; i++) {
+            if (arr[i] > largest) {
+                largest = arr[i];
+            }
+        }
+        return largest;
+    }
+}
+public class Largestelement{
+    public static void main(String[] args) {
+        int[] arr = {5, 8, 2, 10, 3};
+        System.out.println("largest element: " + Solution.findLargestbetter(arr));
+    }
+}
 
