@@ -25,7 +25,7 @@ class Solution {
     }
 }
 
-public class Main {
+public class Secondlargestelement {
 
     public static void main(String[] args) {
 
