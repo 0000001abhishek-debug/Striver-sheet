@@ -38,21 +38,21 @@
 // }
 // }
 
-import java.util.*;
-class UnionOfArrays {
-    static ArrayList<Integer> unionOptimal(int[] a, int[] b) {
-    ArrayList<Integer> result = new ArrayList<.();
+// import java.util.*;
+// class UnionOfArrays {
+//     static ArrayList<Integer> unionOptimal(int[] a, int[] b) {
+//     ArrayList<Integer> result = new ArrayList<.();
 
-    int i = 0, j = 0;
+//     int i = 0, j = 0;
 
-    while (i < a.length && j < b.length) {
-        if ([i] <= b[j]) {
-            if (result.size() == 0 || result.get(result.size() - 1) != a[i]) {
-                result.add(a[i]);
-            }
-        }
-    }
-}
+//     while (i < a.length && j < b.length) {
+//         if ([i] <= b[j]) {
+//             if (result.size() == 0 || result.get(result.size() - 1) != a[i]) {
+//                 result.add(a[i]);
+//             }
+//         }
+//     }
+// }
 
-}
+// }
 
