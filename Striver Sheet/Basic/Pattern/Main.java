@@ -84,21 +84,21 @@
 // }
 // }
 
-class Main {
+// class Main {
     
-    public void pattern6(int N) {
+//     public void pattern6(int N) {
       
-        for (int i = 0; i < N; i++) {
+//         for (int i = 0; i < N; i++) {
           
-            for (int j = N; j > i; j--) {
-                System.out.print((N - j + 1) + " ");
-            }
-                        System.out.println();
-        }
-    }
-    public static void main(String[] args) {
-        Main main = new Main();
-        int N = 5;
-        main.pattern6(N);
-    }
-}
+//             for (int j = N; j > i; j--) {
+//                 System.out.print((N - j + 1) + " ");
+//             }
+//                         System.out.println();
+//         }
+//     }
+//     public static void main(String[] args) {
+//         Main main = new Main();
+//         int N = 5;
+//         main.pattern6(N);
+//     }
+// }
