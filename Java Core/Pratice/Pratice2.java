@@ -63,3 +63,30 @@
 //     add(a, b); }}
 
 //5. check a number is prime or not 
+import java.util.Scanner;
+class Pratice2 {
+  static void prime(int num) {
+    boolean isPrime = true;
+    if(num <= 1) {
+      isPrime = false;
+    } else {
+      for (int i = 2; i <= num / 2; i++) {
+        if (num % i == 0) {
+          isPrime = false;
+          break;
+        }
+      }
+      if (isPrime) {
+        System.out.println("Prime: " + num);
+      } else {
+        System.out.println("Not prime: " + num);
+      }
+    }
+    }
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter a number:");
+      int num = sc.nextInt();
+      prime(num);
+    }
+  }
