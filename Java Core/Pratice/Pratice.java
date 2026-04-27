@@ -153,35 +153,35 @@ package Pratice;
 //    }}
 
 //4. Armstong
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Pratice {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("\nEnter starting number:");
-        int start = sc.nextInt();
+// class Pratice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("\nEnter starting number:");
+//         int start = sc.nextInt();
 
-        System.out.println("Enter ending number:");
-        int end = sc.nextInt();
+//         System.out.println("Enter ending number:");
+//         int end = sc.nextInt();
 
-        System.out.println("Armstrong Numbers between " + start + " and " + end + ":");
+//         System.out.println("Armstrong Numbers between " + start + " and " + end + ":");
 
-        for (int num = start; num <= end; num++) {
-            int temp = num;
-            int sum = 0;
-            int digits = String.valueOf(num).length();
+//         for (int num = start; num <= end; num++) {
+//             int temp = num;
+//             int sum = 0;
+//             int digits = String.valueOf(num).length();
 
-            while (temp > 0) {
-                int digit = temp % 10;
-                sum += Math.pow(digit, digits);
-                temp = temp / 10;
-            }
+//             while (temp > 0) {
+//                 int digit = temp % 10;
+//                 sum += Math.pow(digit, digits);
+//                 temp = temp / 10;
+//             }
 
-            if (sum == num) {
-                System.out.print(num + " ");
-            }
-        }
+//             if (sum == num) {
+//                 System.out.print(num + " ");
+//             }
+//         }
 
-        sc.close();
-    }
-}
+//         sc.close();
+//     }
+// }

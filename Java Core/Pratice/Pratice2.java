@@ -92,31 +92,97 @@
 //   }
 
 //6. grade calculator 
-import java.util.Scanner;
+// import java.util.Scanner;
+// class Pratice1 {
+//   static void grade(int marks) {
+//     if (marks >= 91 && marks <= 100) {
+//       System.out.println("Grade: AA");
+//     } else if (marks >= 81) {
+//       System.out.println("Grade: AB");
+//     } else if (marks >= 71) {
+//       System.out.println("Grade: BB");
+//     } else if (marks >= 61) {
+//       System.out.println("Grade: BC");
+//     } else if (marks >= 51) {
+//       System.out.println("Grade: CD");
+//     } else if (marks >= 41) {
+//       System.out.println("Grade: DD");
+//     } else {
+//       System.out.println("Grade: Fail");
+//     }
+//   }
+//   public static void main(String[] args) {
+//     // Scanner sc = new Scanner(System.in);
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter your marks:");
+//     int marks = sc.nextInt();
+//     grade(marks);
+//   }
+// }
 
-class Pratice1 {
-  static void grade(int marks) {
-    if (marks >= 91 && marks <= 100) {
-      System.out.println("Grade: AA");
-    } else if (marks >= 81) {
-      System.out.println("Grade: AB");
-    } else if (marks >= 71) {
-      System.out.println("Grade: BB");
-    } else if (marks >= 61) {
-      System.out.println("Grade: BC");
-    } else if (marks >= 51) {
-      System.out.println("Grade: CD");
-    } else if (marks >= 41) {
-      System.out.println("Grade: DD");
-    } else {
-      System.out.println("Grade: Fail");
-    }
-  }
+//7. Write a function to find if a number is a palindrome or not. Take number as parameter.
+// import java.util.Scanner;
+// class Pratice2 {
+//   static void palindrome(int num) {
+//     int original = num;
+//     int reverse = 0;
 
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter your marks:");
-    int marks = sc.nextInt();
-    grade(marks);
-  }
-}
+//     while (num > 0) {
+//       int digit = num % 10;
+//       reverse = reverse * 10 + digit;
+//       num = num / 10;
+//     }
+
+//     if (original == reverse) {
+//       System.out.println("Palindrome: " + original);
+//     } else {
+//       System.out.println("Not Palindrome:" + original);
+//     }
+//   }
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter a number:");
+//     int num = sc.nextInt();
+//     palindrome(num);}}
+
+//8. Factorial of a number 
+// import java.util.Scanner;
+// class Pratice2 {
+//   static int factorial(int num) {
+//     int fact = 1;
+//     for (int i = 1; i <= num; i++) {
+//       fact = fact * i;
+//     }
+//     return fact;
+//   }
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter a number:");
+//     int num = sc.nextInt();
+//     int result = factorial(num);
+//     System.out.println("Factorial:" + result);}}
+
+//9. Pythagorean triplet
+// import java.util.Scanner;
+// class Pratice2 {
+//   static void pythagoreanTriplet(int a, int b, int c) {
+//     if ((a * a + b * b == c * c) ||
+//         (a * a + c * c == b * b) ||
+//         (b * b + c * c == a * a))
+//       System.out.println("Pythagorean triplet: ");
+//     else {
+//       System.out.println("Not a Pythagorean triplet:");
+//     }
+//   }
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter a first number:");
+//     int a = sc.nextInt();
+//     System.out.println("Enter a second number:");
+//     int b = sc.nextInt();
+//     System.out.println("Enter a third number:");
+//     int c = sc.nextInt();
+//     pythagoreanTriplet(a, b, c);}}
+
+//10. sum of first n natural number 
+import java.util.
