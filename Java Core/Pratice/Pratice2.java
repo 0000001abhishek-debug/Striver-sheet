@@ -185,20 +185,20 @@
 //     pythagoreanTriplet(a, b, c);}}
 
 //10. sum of first n natural number 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Pratice2 {
-  static int sumofNatural(int n) {
-    int sum = 0;
-    for (int i = 1; i <= n; i++) {
-      sum = sum + i;
-    }
-    return sum;
-  }
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter a number:");
-    int n = sc.nextInt();
-    int result = sumofNatural(n);
-    System.out.println("Sum of first" + n + "natural number: " + result);}}
+// class Pratice2 {
+//   static int sumofNatural(int n) {
+//     int sum = 0;
+//     for (int i = 1; i <= n; i++) {
+//       sum = sum + i;
+//     }
+//     return sum;
+//   }
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter a number:");
+//     int n = sc.nextInt();
+//     int result = sumofNatural(n);
+//     System.out.println("Sum of first" + n + "natural number: " + result);}}
  
