@@ -46,5 +46,5 @@ class Pratice1 {
         // System.out.println("Area of parllelogram = " + (pb * ph));}}
 
         //7. Area of rhombus
-        System.out.println("Enter diagonal of rhombus: ");
+        // System.out.println("Enter diagonal of rhombus: ");
         
