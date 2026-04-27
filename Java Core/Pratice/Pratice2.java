@@ -48,8 +48,18 @@
 //     int age = sc.nextInt();
 //     checkVote(age);}}
 
-//4. 
-import java.util.Scanner;
-class Pratice2 {
-  static void main
-}
+//4. Add two number
+// import java.util.Scanner;
+// class Pratice2 {
+//   static void add(int a, int b) {
+//     System.out.println("Add : " + (a + b));
+//   }
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter a first number:");
+//     int a = sc.nextInt();
+//     System.out.println("Enter a second number:");
+//     int b = sc.nextInt();
+//     add(a, b); }}
+
+//5. check a number is prime or not 
