@@ -201,4 +201,35 @@
 //     int n = sc.nextInt();
 //     int result = sumofNatural(n);
 //     System.out.println("Sum of first" + n + "natural number: " + result);}}
- 
+
+//11. prime no between two number
+// import java.util.Scanner;
+
+// class Pratice2 {
+//   static void primeBetween(int start, int end) {
+//     System.out.println("Prime numbers between " + start + "and" + end + ":");
+//     for (int num = start; num <= end; num++) {
+//       boolean isPrime = true;
+//       if (num <= 1) {
+//         isPrime = false;
+//       } else {
+//         for (int i = 2; i <= num / 2; i++) {
+//           if (num % i == 0) {
+//             isPrime = false;
+//             break;
+//           }
+//         }
+//       }
+//       if (isPrime) {
+//         System.out.println(num + " ");
+//       }
+//     }
+//   }
+
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter starting number:");
+//     int start = sc.nextInt();
+//     System.out.println("Enter ending number:");
+//     int end = sc.nextInt();
+//     primeBetween(start, end);}}

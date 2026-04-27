@@ -1,4 +1,3 @@
-package Pratice;
 //1. check a number is odd or even 
 //  import java.util.Scanner;
 // class Practice {
