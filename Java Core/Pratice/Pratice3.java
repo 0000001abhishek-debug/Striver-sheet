@@ -46,3 +46,25 @@
 
 //   }
 // }
+//3.Minimum Cost to Move Chips to The Same Position
+class Pratice3 {
+  public int minCostToMoveChips(int[] position) {
+    int evenCount = 0;
+    int oddCount = 0;
+
+    for (int pos : position) {
+      if (pos % 2 == 0) {
+        evenCount++;
+      } else {
+        oddCount++;
+      }
+    }
+    return Math.min(evenCount, oddCount);
+  }
+  public static void main(String[] args) {
+    int[] position = {1, 2, 3};
+    Pratice3 obj = new Pratice3();
+    int result = obj.minCostToMoveChips(position);
+    System.out.println("Minimum cost to move chips:" + result);
+  }
+}
