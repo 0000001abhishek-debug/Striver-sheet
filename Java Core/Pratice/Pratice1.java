@@ -1,8 +1,8 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// class Pratice1 {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+class Pratice1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         // 1. Addition
 
         // System.out.println("Enter a first number: ");
@@ -45,6 +45,29 @@
         // double ph = sc.nextDouble();
         // System.out.println("Area of parllelogram = " + (pb * ph));}}
 
-        //7. Area of rhombus
-        // System.out.println("Enter diagonal of rhombus: ");
-        
+        // 7. Area of rhombus
+        // System.out.println("Enter diagonal 1: ");
+        // double d1 = sc.nextDouble();
+
+        // System.out.println("Enter a diagonal 2:");
+        // double d2 = sc.nextDouble();
+        // System.out.println("Area of rhombus = " + (0.5 * d1 * d2));
+        // }
+        // }
+
+        // 8. Area of equilatral triangle
+        // System.out.println("Enter side of equilateral triangle:");
+        // double s = sc.nextInt();
+
+        // double areaEqui = (Math.sqrt(3 / 4 * s * s));
+        // System.out.println("Area of equilateral triangle = " + areaEqui);
+        // }
+        // }
+
+        // 9. perimeter of circle
+        System.out.println("Enter radius of circle:");
+        double r = sc.nextDouble();
+        double perimeter = 2 * 3.14 * r;
+        System.out.println("Perimeter of circle = " + perimeter);
+    }
+}
