@@ -66,4 +66,46 @@
 //     int newLength = obj.removeDuplicate(nums);
 //     System.out.println("New length after removing duplicates: " + newLength);}}
 
-//4.
+//4. concatenation of array
+// class Pratice3 {
+//   public int[] getConcatenation(int[] nums) {
+
+//     int[] ans = new int [2 * nums.length];
+//     for(int i = 0; i < nums.length; i++) {
+//       ans[i] = nums[i];
+//       ans[i + nums.length] = nums[i];
+//     }
+//     return ans;
+//   }
+//   public static void main(String[] args) {
+//     int[] nums = {1, 2, 3};
+//     Pratice3 obj = new Pratice3();
+//     int[] result = obj.getConcatenation(nums);
+//     System.out.println("Concatenated array:");
+//     for (int num : result) {
+//       System.out.println(num);
+//     }
+//   }
+// }
+
+// Running sum of 1d array
+// class Pratice {
+//   public int[] runningSum(int[] nums) {
+
+//     for (int i = 1; i < nums.length; i++) {
+//       nums[i] = nums[i] + nums[i - 1];
+//     }
+//     return nums;
+//   }
+
+//   public static void main(String[] args) {
+//     int[] nums = { 1, 2, 3, 4 };
+//     Pratice obj = new Pratice();
+//     int[] result = obj.runningSum(nums);
+//     System.out.println("Running sum array:");
+//     for (int num : result) {
+//       System.out.println(num);
+//     }
+//   }
+// }
+
